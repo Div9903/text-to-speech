@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to speech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="server.js" defer></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="head">Text To Speech</div>
+        <form action="#">
+            <div class="row">
+                <label for="text">Enter Text</label>
+                <textarea name="text" id="text" cols="30" rows="5"></textarea>
+            </div>
+            <div class="row">
+                <label for="voice">Select Voice</label>
+                <div class="voice-selector" id="voice">
+                    <select>
+                        <!-- <option value="">Google Hindi (hi-IN)</option>
+                        <option value="">Google US English (en-US)</option>
+                        <option value="">Google UK English Male (en-GB)</option>
+                        <option value="">Google UK English Female (en-GB)</option> -->
+                    </select>
+                </div>
+            </div>
+            <!-- <input type="submit" class="submit" id="submit" value="Convert To Speech">
+             -->
+             <button>Convert to Speech</button>
+        </form>
+    </div>
+    
+</body>
+</html>
